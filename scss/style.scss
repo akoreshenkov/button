@@ -27,6 +27,7 @@ button {
     transform: translateY(-6px);
     transition: 0.12s linear;
     span{//border: 1px solid red;
+        user-select: none;
         position: absolute;
         left:10px;
         bottom:8px;

@@ -103,6 +103,10 @@ button {
   background: #192227;
 }
 button span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   left: 10px;
   bottom: 8px;
